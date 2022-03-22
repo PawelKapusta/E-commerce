@@ -8,3 +8,6 @@ Go or Scala. Add tools for build like sbt or gradle depends on the programming l
 
 Link to docker hub:
 https://hub.docker.com/repository/docker/pawelkapusta/ecommerce 
+
+Task 2:
+To be continued ...
