@@ -10,4 +10,5 @@ Link to docker hub:
 https://hub.docker.com/repository/docker/pawelkapusta/ecommerce 
 
 Task 2:
-To be continued ...
+CRUD in Scala
+
