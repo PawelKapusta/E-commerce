@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/mnt/c/Users/Legion/Desktop/E-commerce/Task2_Scala/conf/application.conf,/mnt/c/Users/Legion/Desktop/E-commerce/Task2_Scala/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/mnt/c/Users/Legion/Desktop/E-commerce/Task2_Scala/conf/generated.keystore,/mnt/c/Users/Legion/Desktop/E-commerce/Task2_Scala/target/scala-2.13/classes/generated.keystore)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/mnt/c/Users/Legion/Desktop/E-commerce/Task2_Scala/conf/logback.xml,/mnt/c/Users/Legion/Desktop/E-commerce/Task2_Scala/target/scala-2.13/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/mnt/c/Users/Legion/Desktop/E-commerce/Task2_Scala/conf/routes,/mnt/c/Users/Legion/Desktop/E-commerce/Task2_Scala/target/scala-2.13/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/mnt/c/Users/Legion/Desktop/E-commerce/Task2_Scala/conf/secure.conf,/mnt/c/Users/Legion/Desktop/E-commerce/Task2_Scala/target/scala-2.13/classes/secure.conf)[0m
