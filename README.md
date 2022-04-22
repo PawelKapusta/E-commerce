@@ -12,3 +12,6 @@ https://hub.docker.com/repository/docker/pawelkapusta/ecommerce
 Task 2:
 CRUD in Scala
 
+Task 3:
+Slack bot in Kotlin
+
