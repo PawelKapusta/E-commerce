@@ -4,8 +4,7 @@ import "gorm.io/gorm"
 
 type Order struct {
 	gorm.Model
-
-	id            uint `gorm:"primaryKey; not null"`
-	orderPrice    float32
-	paymentMethod string
+	ID            string
+	OrderPrice    float32
+	PaymentMethod string
 }
