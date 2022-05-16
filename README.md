@@ -15,5 +15,8 @@ CRUD in Scala
 Task 3:
 Slack bot in Kotlin
 
-Task :
+Task 4:
 GORM with sqlite database models and endpoints in GO
+
+Task 5:
+First implementation of Online shop
