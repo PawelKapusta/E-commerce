@@ -20,3 +20,6 @@ GORM with sqlite database models and endpoints in GO
 
 Task 5:
 First implementation of Online shop
+
+Task 6:
+Implement tests in Cypress
