@@ -1,0 +1,48 @@
+npm info it worked if it ends with ok
+npm verb cli [
+npm verb cli   'C:\\Program Files\\nodejs\\node.exe',
+npm verb cli   'C:\\Users\\Legion\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+npm verb cli   'install',
+npm verb cli   '--loglevel',
+npm verb cli   'verbose'
+npm verb cli ]
+npm info using npm@6.14.8
+npm info using node@v14.14.0
+npm verb npm-session 14c85ecc4c883028
+npm info lifecycle @~preinstall: @
+npm timing stage:loadCurrentTree Completed in 6ms
+npm timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+npm timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+npm timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 2ms
+npm timing stage:loadIdealTree Completed in 5ms
+npm timing stage:generateActionsToTake Completed in 2ms
+npm verb correctMkdir C:\Users\Legion\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+npm verb makeCacheDir UID & GID are irrelevant on win32
+npm verb lock using C:\Users\Legion\AppData\Roaming\npm-cache\_locks\staging-49fc438858cb0a1f.lock for C:\Users\Legion\Desktop\E-commerce\Task5_Shop\frontend\tmpBstackPackages\node_modules\.staging
+npm verb unlock done using C:\Users\Legion\AppData\Roaming\npm-cache\_locks\staging-49fc438858cb0a1f.lock for C:\Users\Legion\Desktop\E-commerce\Task5_Shop\frontend\tmpBstackPackages\node_modules\.staging
+npm timing stage:executeActions Completed in 56ms
+npm timing stage:rollbackFailedOptional Completed in 0ms
+npm info linkStuff !invalid#1
+npm info lifecycle undefined~install: undefined
+npm info lifecycle undefined~postinstall: undefined
+npm info lifecycle undefined~prepublish: undefined
+npm info lifecycle undefined~prepare: undefined
+npm timing stage:runTopLevelLifecycles Completed in 110ms
+npm verb saving []
+npm info lifecycle !invalid#2~preshrinkwrap: !invalid#2
+npm info lifecycle !invalid#2~shrinkwrap: !invalid#2
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm info lifecycle !invalid#2~postshrinkwrap: !invalid#2
+npm WARN tmpBstackPackages No description
+npm WARN tmpBstackPackages No repository field.
+npm WARN tmpBstackPackages No license field.
+
+npm timing audit submit Completed in 372ms
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 373ms
+npm timing audit body Completed in 2ms
+up to date in 0.427s
+found 0 vulnerabilities
+
+npm verb exit [ 0, true ]
+npm timing npm Completed in 1106ms
+npm info ok 
