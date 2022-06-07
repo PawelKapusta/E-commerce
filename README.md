@@ -23,3 +23,6 @@ First implementation of Online shop
 
 Task 6:
 Implement tests in Cypress
+
+Task 7:
+Oauth2 with Github and Google account
