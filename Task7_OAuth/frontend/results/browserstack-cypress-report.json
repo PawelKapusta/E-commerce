@@ -1,0 +1,896 @@
+{
+  "build_id": "1ffd55422dc3276bec970ebd998d818552be2eeb",
+  "build_name": "e-commerce_tests: 3",
+  "project_name": "e-commerce_tests",
+  "build_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb",
+  "public_build_url": "https://automate.browserstack.com/dashboard/v2/public-build/VzNYUkxJaHByNDBZVVRvamFKdks5UTUzdndTcHcvNk0rSE1acDMwNFZKUzY4RStVM0VvRHZ0aC9QVk9UbWZoS09RbDlBNldjU0k3U1pJN3RQb2NlT2c9PS0tdTRXZUgvN1lld3c4emdNMjZ0Z1BTQT09--e651d2af11442e49975cbb39d011d264f6769483?user_id=3106642",
+  "build_duration": {
+    "started_at": "2022-05-23T20:34:15.000Z",
+    "total_duration": 977,
+    "queue_time": 16.15,
+    "setup_time": 1.56,
+    "test_run_time": 120.18,
+    "idle_time": 144.67,
+    "misc_time": 694.44
+  },
+  "cypress_version": "9.5.4",
+  "cli_version": "BStack-Cypress-CLI/1.14.1 (x64/win32/10.0.19044)",
+  "rows": {
+    "todo.spec.js": {
+      "path": "cypress/integration/1-getting-started",
+      "meta": { "total": 6, "passed": 6, "failed": 0 },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:35:25.144Z",
+            "duration": 4.096,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "chrome 101, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/2791641f25ffd8849cdd56ab0683cbf3abc557dbY3lwcmVzcy9pbnRlZ3JhdGlvbi8xLWdldHRpbmctc3RhcnRlZC90b2RvLnNwZWMuanM=",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/2791641f25ffd8849cdd56ab0683cbf3abc557dbY3lwcmVzcy9pbnRlZ3JhdGlvbi8xLWdldHRpbmctc3RhcnRlZC90b2RvLnNwZWMuanM=?auth_token=741f1f1b4d08da0f19805ad7b8f0b80ce4e46f0e73d27a646e081ca2d6192a2b&build_token=a3VyTmtIVHZFbDZ3bjZicjBPSndvOXNtNkpJQWlROW9kekdBZzJvZmdaOD0tLXEvMitvZHNqYzNvZU55b2pRWUVQeWc9PQ==--94f9981a48c23a2084a724525d3227259c2ba1d3",
+          "tests": [
+            {
+              "name": "displays two todo items by default",
+              "status": "passed",
+              "duration": "0.40"
+            },
+            { "name": "can add new todo items", "status": "passed", "duration": "0.47" },
+            {
+              "name": "can check off an item as completed",
+              "status": "passed",
+              "duration": "0.22"
+            },
+            { "name": "can filter for uncompleted tasks", "status": "passed", "duration": "0.34" },
+            { "name": "can filter for completed tasks", "status": "passed", "duration": "0.32" },
+            { "name": "can delete all completed tasks", "status": "passed", "duration": "0.31" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:37:59.087Z",
+            "duration": 4.796,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "chrome 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/7d7dab2d7717d8426c27b6bfc34ec56f2b0248b1Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLWdldHRpbmctc3RhcnRlZC90b2RvLnNwZWMuanM=",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/7d7dab2d7717d8426c27b6bfc34ec56f2b0248b1Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLWdldHRpbmctc3RhcnRlZC90b2RvLnNwZWMuanM=?auth_token=e1d7eda6d60f103332e2ab8ddfdb85bf7ec2add1acf3f28f4b65c7c870209f80&build_token=R3JiNWtjSUJ3TmRxeEY2OTdoUlFHandUb3EyZi9KR2gvRU1EQzhNOTFHdz0tLVY0NkJtdDZJbXdYMnpKOHJjb2MvN1E9PQ==--a1a6be2ecc2305a1e2279240fadd3aa8448a4f80",
+          "tests": [
+            {
+              "name": "displays two todo items by default",
+              "status": "passed",
+              "duration": "0.80"
+            },
+            { "name": "can add new todo items", "status": "passed", "duration": "0.47" },
+            {
+              "name": "can check off an item as completed",
+              "status": "passed",
+              "duration": "0.24"
+            },
+            { "name": "can filter for uncompleted tasks", "status": "passed", "duration": "0.36" },
+            { "name": "can filter for completed tasks", "status": "passed", "duration": "0.39" },
+            { "name": "can delete all completed tasks", "status": "passed", "duration": "0.34" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:41:14.455Z",
+            "duration": 11.795,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "firefox 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/a083c826781b717d84693b7493c7cb8c2b816297Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLWdldHRpbmctc3RhcnRlZC90b2RvLnNwZWMuanM=",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/a083c826781b717d84693b7493c7cb8c2b816297Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLWdldHRpbmctc3RhcnRlZC90b2RvLnNwZWMuanM=?auth_token=7bb604e3e07bdbcab972e6c0146b75762aaed4861adec73b8bb5ae4aa5c399e4&build_token=OUJUSnRGWjQ1MDhUbVBNZ3RvTXR6RG9hLzlHekVOb0FJYUFVMHFTV2xDTT0tLXFNQUVjZUlCWWJ2Skppa0pSaENaMFE9PQ==--871abb4cdf212628d62a717303fe6cf4db9371f0",
+          "tests": [
+            {
+              "name": "displays two todo items by default",
+              "status": "passed",
+              "duration": "2.71"
+            },
+            { "name": "can add new todo items", "status": "passed", "duration": "1.20" },
+            {
+              "name": "can check off an item as completed",
+              "status": "passed",
+              "duration": "0.87"
+            },
+            { "name": "can filter for uncompleted tasks", "status": "passed", "duration": "1.03" },
+            { "name": "can filter for completed tasks", "status": "passed", "duration": "0.75" },
+            { "name": "can delete all completed tasks", "status": "passed", "duration": "0.72" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:44:58.962Z",
+            "duration": 10.689,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "firefox 99, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/4a600918f256be3b10037743b5ca027a03a11603Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLWdldHRpbmctc3RhcnRlZC90b2RvLnNwZWMuanM=",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/4a600918f256be3b10037743b5ca027a03a11603Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLWdldHRpbmctc3RhcnRlZC90b2RvLnNwZWMuanM=?auth_token=53a98d40dd8f4b15ae984a78de815b82c470af9edc65bed1c7571338f2533773&build_token=dk9oR1BVS003MitobzlHMXVyZGpYWHZLRWVYNExlaytzWG03cTViV2QyZz0tLVdQaGYybjhEdG1Xcmd5UGY0VVJPWmc9PQ==--e2f4e7238f4a12eb473e02dc782255c997d730d4",
+          "tests": [
+            {
+              "name": "displays two todo items by default",
+              "status": "passed",
+              "duration": "2.56"
+            },
+            { "name": "can add new todo items", "status": "passed", "duration": "0.94" },
+            {
+              "name": "can check off an item as completed",
+              "status": "passed",
+              "duration": "0.70"
+            },
+            { "name": "can filter for uncompleted tasks", "status": "passed", "duration": "0.79" },
+            { "name": "can filter for completed tasks", "status": "passed", "duration": "0.73" },
+            { "name": "can delete all completed tasks", "status": "passed", "duration": "0.74" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:47:50.089Z",
+            "duration": 9.807,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "edge 101, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/88b93d7f3e65908c6e2d9f794209d97267e86622Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLWdldHRpbmctc3RhcnRlZC90b2RvLnNwZWMuanM=",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/88b93d7f3e65908c6e2d9f794209d97267e86622Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLWdldHRpbmctc3RhcnRlZC90b2RvLnNwZWMuanM=?auth_token=44e8c7b008d1a239fb79cb35de05ea4f294796247bb344dafcfee50a8496db75&build_token=YklxWWl0NGI1citjMU5saUVoTUhlRzBoOXBPM2xUd2g4ek00MHpwb0FGQT0tLVV3VEEzRHBNRUlzVlBhWmtMWEVJZEE9PQ==--43935aa3cb781ff8b0fcc1af0b2c51de015e89b6",
+          "tests": [
+            {
+              "name": "displays two todo items by default",
+              "status": "passed",
+              "duration": "2.67"
+            },
+            { "name": "can add new todo items", "status": "passed", "duration": "0.84" },
+            {
+              "name": "can check off an item as completed",
+              "status": "passed",
+              "duration": "0.51"
+            },
+            { "name": "can filter for uncompleted tasks", "status": "passed", "duration": "0.66" },
+            { "name": "can filter for completed tasks", "status": "passed", "duration": "0.69" },
+            { "name": "can delete all completed tasks", "status": "passed", "duration": "0.63" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:49:40.488Z",
+            "duration": 6.969,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "edge 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/25ad6ff3f803365b1def3531a0077f0aaaea935fY3lwcmVzcy9pbnRlZ3JhdGlvbi8xLWdldHRpbmctc3RhcnRlZC90b2RvLnNwZWMuanM=",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/25ad6ff3f803365b1def3531a0077f0aaaea935fY3lwcmVzcy9pbnRlZ3JhdGlvbi8xLWdldHRpbmctc3RhcnRlZC90b2RvLnNwZWMuanM=?auth_token=82ab6e5f7e4ee0f35b23c5c0ff574a588f3e0119908c6f93e2563e940e283d34&build_token=VTVIVHAyeFlYaG5qREJnMlY4bjBoeFNLV0MzR3JqeWw4cjZ3VlNsN1liTT0tLU5YSjMvNGMxOHM4U2Q5SFU2Y3RVSGc9PQ==--4491e1260a37a6ff8b38ef7c9364637bc6552de4",
+          "tests": [
+            {
+              "name": "displays two todo items by default",
+              "status": "passed",
+              "duration": "1.75"
+            },
+            { "name": "can add new todo items", "status": "passed", "duration": "0.67" },
+            {
+              "name": "can check off an item as completed",
+              "status": "passed",
+              "duration": "0.32"
+            },
+            { "name": "can filter for uncompleted tasks", "status": "passed", "duration": "0.57" },
+            { "name": "can filter for completed tasks", "status": "passed", "duration": "0.47" },
+            { "name": "can delete all completed tasks", "status": "passed", "duration": "0.45" }
+          ]
+        }
+      ]
+    },
+    "basketScreen.spec.js": {
+      "path": "cypress/integration",
+      "meta": { "total": 6, "passed": 6, "failed": 0 },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:35:34.272Z",
+            "duration": 1.928,
+            "total_tests": 2,
+            "passed": 2,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "chrome 101, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/2791641f25ffd8849cdd56ab0683cbf3abc557dbY3lwcmVzcy9pbnRlZ3JhdGlvbi9iYXNrZXRTY3JlZW4uc3BlYy5qcw==",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/2791641f25ffd8849cdd56ab0683cbf3abc557dbY3lwcmVzcy9pbnRlZ3JhdGlvbi9iYXNrZXRTY3JlZW4uc3BlYy5qcw==?auth_token=741f1f1b4d08da0f19805ad7b8f0b80ce4e46f0e73d27a646e081ca2d6192a2b&build_token=RTdNZG95UysvWmFkRFJydE1QOTFtK2N1Rlg1dnFoOWhTTUJzTkpHL1R4dz0tLVI3Znd1Yzdad0QvZUJ3dHdPb3NVa1E9PQ==--f3891a698c9774378dcf18c83739e3954369ef56",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "1.48" },
+            { "name": "Empty basket", "status": "passed", "duration": "0.44" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:37:40.264Z",
+            "duration": 2.102,
+            "total_tests": 2,
+            "passed": 2,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "chrome 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/7d7dab2d7717d8426c27b6bfc34ec56f2b0248b1Y3lwcmVzcy9pbnRlZ3JhdGlvbi9iYXNrZXRTY3JlZW4uc3BlYy5qcw==",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/7d7dab2d7717d8426c27b6bfc34ec56f2b0248b1Y3lwcmVzcy9pbnRlZ3JhdGlvbi9iYXNrZXRTY3JlZW4uc3BlYy5qcw==?auth_token=e1d7eda6d60f103332e2ab8ddfdb85bf7ec2add1acf3f28f4b65c7c870209f80&build_token=TmhJQlUxY0Z2bndFR2FPdVZoc1g2T2ljY0dDc0xGc1ZnWnNlTmZvdHJ0dz0tLVdXRVI1R2dCNStscEFpNFphcUZEN3c9PQ==--09087c7b193aada957026bba87d7eb504b2510ab",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "1.60" },
+            { "name": "Empty basket", "status": "passed", "duration": "0.49" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:41:01.102Z",
+            "duration": 5.578,
+            "total_tests": 2,
+            "passed": 2,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "firefox 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/a083c826781b717d84693b7493c7cb8c2b816297Y3lwcmVzcy9pbnRlZ3JhdGlvbi9iYXNrZXRTY3JlZW4uc3BlYy5qcw==",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/a083c826781b717d84693b7493c7cb8c2b816297Y3lwcmVzcy9pbnRlZ3JhdGlvbi9iYXNrZXRTY3JlZW4uc3BlYy5qcw==?auth_token=7bb604e3e07bdbcab972e6c0146b75762aaed4861adec73b8bb5ae4aa5c399e4&build_token=UkxxOWJyb3g3VWkwZFhqZmdudXlsUkVJWXppczQvelgweXYxMnJqdStmdz0tLVhzdXpxVGFRUllSekJvY3NCWnF2TXc9PQ==--fa572c3b33c5d0e3bf00ce1615f354fe42ef918f",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "3.13" },
+            { "name": "Empty basket", "status": "passed", "duration": "2.41" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:44:23.105Z",
+            "duration": 5.269,
+            "total_tests": 2,
+            "passed": 2,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "firefox 99, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/4a600918f256be3b10037743b5ca027a03a11603Y3lwcmVzcy9pbnRlZ3JhdGlvbi9iYXNrZXRTY3JlZW4uc3BlYy5qcw==",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/4a600918f256be3b10037743b5ca027a03a11603Y3lwcmVzcy9pbnRlZ3JhdGlvbi9iYXNrZXRTY3JlZW4uc3BlYy5qcw==?auth_token=53a98d40dd8f4b15ae984a78de815b82c470af9edc65bed1c7571338f2533773&build_token=QkpHek5ORWdzNmkzMVhqVEFINTFWL2JmQTNmbGZDMllqc3NBdzVrd3FwQT0tLW1PTXI3U3RzK2E4aUN6NDFsNC9pdHc9PQ==--62da36a8fc3ecab47f5d2c461353d42f708895da",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "2.96" },
+            { "name": "Empty basket", "status": "passed", "duration": "2.28" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:48:09.920Z",
+            "duration": 6.461,
+            "total_tests": 2,
+            "passed": 2,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "edge 101, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/88b93d7f3e65908c6e2d9f794209d97267e86622Y3lwcmVzcy9pbnRlZ3JhdGlvbi9iYXNrZXRTY3JlZW4uc3BlYy5qcw==",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/88b93d7f3e65908c6e2d9f794209d97267e86622Y3lwcmVzcy9pbnRlZ3JhdGlvbi9iYXNrZXRTY3JlZW4uc3BlYy5qcw==?auth_token=44e8c7b008d1a239fb79cb35de05ea4f294796247bb344dafcfee50a8496db75&build_token=QUpKREVtYUlvUDFpbXlPejZnUXJZTHp4MGhjaFgxYW14dk1TelZvMWNKST0tLWtHSDZmVjZ5Sjg2eG5xZWpBZFBLOHc9PQ==--427e6e3a4156d9ef25bffba74f627c559f975ddb",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "5.29" },
+            { "name": "Empty basket", "status": "passed", "duration": "1.15" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:50:18.970Z",
+            "duration": 3.345,
+            "total_tests": 2,
+            "passed": 2,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "edge 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/25ad6ff3f803365b1def3531a0077f0aaaea935fY3lwcmVzcy9pbnRlZ3JhdGlvbi9iYXNrZXRTY3JlZW4uc3BlYy5qcw==",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/25ad6ff3f803365b1def3531a0077f0aaaea935fY3lwcmVzcy9pbnRlZ3JhdGlvbi9iYXNrZXRTY3JlZW4uc3BlYy5qcw==?auth_token=82ab6e5f7e4ee0f35b23c5c0ff574a588f3e0119908c6f93e2563e940e283d34&build_token=a3o5Rzhma3E0MVY2VHkvTGNUeDE3MWE5SnA1d1RsR0VBaHBiWWpnNFhkTT0tLWxMTFBVZkZZb1lVNGVQc3p3RjdSQlE9PQ==--2d1921d2a5894fc5232148fde63715cef84767a6",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "2.69" },
+            { "name": "Empty basket", "status": "passed", "duration": "0.63" }
+          ]
+        }
+      ]
+    },
+    "homeScreen.spec.js": {
+      "path": "cypress/integration",
+      "meta": { "total": 6, "passed": 6, "failed": 0 },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:35:09.571Z",
+            "duration": 3.71,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "chrome 101, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/2791641f25ffd8849cdd56ab0683cbf3abc557dbY3lwcmVzcy9pbnRlZ3JhdGlvbi9ob21lU2NyZWVuLnNwZWMuanM=",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/2791641f25ffd8849cdd56ab0683cbf3abc557dbY3lwcmVzcy9pbnRlZ3JhdGlvbi9ob21lU2NyZWVuLnNwZWMuanM=?auth_token=741f1f1b4d08da0f19805ad7b8f0b80ce4e46f0e73d27a646e081ca2d6192a2b&build_token=eTdZYlJ6R2RSSS9uY1BsNVE5c1NoVzQ1eFVZSDBXckpVRmxJbU8yNnVJRT0tLUdNM3lyUnpHK0w3VWRKY24wcVVadmc9PQ==--c54725f6d01afd22236225398ce0d7754c0bbbad",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "1.38" },
+            { "name": "Main page", "status": "passed", "duration": "0.74" },
+            { "name": "Products screen", "status": "passed", "duration": "0.40" },
+            { "name": "Basket screen", "status": "passed", "duration": "0.37" },
+            { "name": "Login screen", "status": "passed", "duration": "0.41" },
+            { "name": "Register screen", "status": "passed", "duration": "0.40" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:38:15.682Z",
+            "duration": 4.08,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "chrome 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/7d7dab2d7717d8426c27b6bfc34ec56f2b0248b1Y3lwcmVzcy9pbnRlZ3JhdGlvbi9ob21lU2NyZWVuLnNwZWMuanM=",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/7d7dab2d7717d8426c27b6bfc34ec56f2b0248b1Y3lwcmVzcy9pbnRlZ3JhdGlvbi9ob21lU2NyZWVuLnNwZWMuanM=?auth_token=e1d7eda6d60f103332e2ab8ddfdb85bf7ec2add1acf3f28f4b65c7c870209f80&build_token=MndITVRTR2xsV3hob1pnWkFNK2JoeE5za1F6V2VROWVPbHNrbWI2dXJGWT0tLU4xVHBFNVdrQSs5cEFPcDdsdDlac2c9PQ==--6b25edb113c5fce833f628156d07de759cee205d",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "1.63" },
+            { "name": "Main page", "status": "passed", "duration": "0.72" },
+            { "name": "Products screen", "status": "passed", "duration": "0.41" },
+            { "name": "Basket screen", "status": "passed", "duration": "0.41" },
+            { "name": "Login screen", "status": "passed", "duration": "0.46" },
+            { "name": "Register screen", "status": "passed", "duration": "0.43" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:39:30.385Z",
+            "duration": 20.83,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "firefox 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/a083c826781b717d84693b7493c7cb8c2b816297Y3lwcmVzcy9pbnRlZ3JhdGlvbi9ob21lU2NyZWVuLnNwZWMuanM=",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/a083c826781b717d84693b7493c7cb8c2b816297Y3lwcmVzcy9pbnRlZ3JhdGlvbi9ob21lU2NyZWVuLnNwZWMuanM=?auth_token=7bb604e3e07bdbcab972e6c0146b75762aaed4861adec73b8bb5ae4aa5c399e4&build_token=a25nVTVMRFhSbWJEZExibGFaVDhHbkVwRFhDbG9jbDJ0ekhKWHJ0UnBSUT0tLTBZeEt2cW9GVWNzQjBPR20xeDFqRmc9PQ==--4570f6cbd3896698deac1de2cd2385ccf4ef700d",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "6.00" },
+            { "name": "Main page", "status": "passed", "duration": "4.65" },
+            { "name": "Products screen", "status": "passed", "duration": "2.58" },
+            { "name": "Basket screen", "status": "passed", "duration": "3.19" },
+            { "name": "Login screen", "status": "passed", "duration": "2.15" },
+            { "name": "Register screen", "status": "passed", "duration": "2.19" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:44:36.285Z",
+            "duration": 14.843,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "firefox 99, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/4a600918f256be3b10037743b5ca027a03a11603Y3lwcmVzcy9pbnRlZ3JhdGlvbi9ob21lU2NyZWVuLnNwZWMuanM=",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/4a600918f256be3b10037743b5ca027a03a11603Y3lwcmVzcy9pbnRlZ3JhdGlvbi9ob21lU2NyZWVuLnNwZWMuanM=?auth_token=53a98d40dd8f4b15ae984a78de815b82c470af9edc65bed1c7571338f2533773&build_token=RWo2dlg5YWcxWGFoeWpRUGhMSEllZWZoOEpYSVJ1L01IS3F6MTFzNFJvZz0tLWxINkVBUGQzUDRrWGQzS3dzVnhXeVE9PQ==--4989d142c91451d5ed50a6f3d75e885ee8166406",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "2.62" },
+            { "name": "Main page", "status": "passed", "duration": "3.10" },
+            { "name": "Products screen", "status": "passed", "duration": "2.15" },
+            { "name": "Basket screen", "status": "passed", "duration": "2.52" },
+            { "name": "Login screen", "status": "passed", "duration": "2.15" },
+            { "name": "Register screen", "status": "passed", "duration": "2.21" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:47:23.741Z",
+            "duration": 14.449,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "edge 101, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/88b93d7f3e65908c6e2d9f794209d97267e86622Y3lwcmVzcy9pbnRlZ3JhdGlvbi9ob21lU2NyZWVuLnNwZWMuanM=",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/88b93d7f3e65908c6e2d9f794209d97267e86622Y3lwcmVzcy9pbnRlZ3JhdGlvbi9ob21lU2NyZWVuLnNwZWMuanM=?auth_token=44e8c7b008d1a239fb79cb35de05ea4f294796247bb344dafcfee50a8496db75&build_token=STZiQUFrbnZsdDJHTzF6M244cStINEMxbUxrYmRaREpBRHNoandnaDhucz0tLUFCMExaTEJyNlJWMmhreHBIeklCTXc9PQ==--cca01ab212c613c765e0ec792361caa309f7cea7",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "4.94" },
+            { "name": "Main page", "status": "passed", "duration": "2.44" },
+            { "name": "Products screen", "status": "passed", "duration": "1.73" },
+            { "name": "Basket screen", "status": "passed", "duration": "1.69" },
+            { "name": "Login screen", "status": "passed", "duration": "1.94" },
+            { "name": "Register screen", "status": "passed", "duration": "1.67" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:50:06.235Z",
+            "duration": 8.092,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "edge 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/25ad6ff3f803365b1def3531a0077f0aaaea935fY3lwcmVzcy9pbnRlZ3JhdGlvbi9ob21lU2NyZWVuLnNwZWMuanM=",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/25ad6ff3f803365b1def3531a0077f0aaaea935fY3lwcmVzcy9pbnRlZ3JhdGlvbi9ob21lU2NyZWVuLnNwZWMuanM=?auth_token=82ab6e5f7e4ee0f35b23c5c0ff574a588f3e0119908c6f93e2563e940e283d34&build_token=RXcrOEpkSDUvbE90aGxHOWJTbkR1U2szSHUrVkw4VUdRUmowYjBwNkVoYz0tLW1WZE9jZnBDN2VNb004amFIM3N5ZGc9PQ==--6aa0d6b6cb81153158bf2b65a48a9540164c341d",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "2.49" },
+            { "name": "Main page", "status": "passed", "duration": "1.31" },
+            { "name": "Products screen", "status": "passed", "duration": "0.89" },
+            { "name": "Basket screen", "status": "passed", "duration": "0.84" },
+            { "name": "Login screen", "status": "passed", "duration": "1.61" },
+            { "name": "Register screen", "status": "passed", "duration": "0.92" }
+          ]
+        }
+      ]
+    },
+    "login.spec.js": {
+      "path": "cypress/integration",
+      "meta": { "total": 6, "passed": 6, "failed": 0 },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:34:44.161Z",
+            "duration": 6.463,
+            "total_tests": 7,
+            "passed": 7,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "chrome 101, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/2791641f25ffd8849cdd56ab0683cbf3abc557dbY3lwcmVzcy9pbnRlZ3JhdGlvbi9sb2dpbi5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/2791641f25ffd8849cdd56ab0683cbf3abc557dbY3lwcmVzcy9pbnRlZ3JhdGlvbi9sb2dpbi5zcGVjLmpz?auth_token=741f1f1b4d08da0f19805ad7b8f0b80ce4e46f0e73d27a646e081ca2d6192a2b&build_token=bzEvVEdWS05wUXNGNVdTTDZWeDF3a3V3WU9lZTcycTgrVUh1bkJJZlZMST0tLU5hTlhSdXA4QjhyLzIvMHF3RUdyOFE9PQ==--0a5eeec4760a785b0c0f8ca3753ec8bacbeb8212",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "2.16" },
+            { "name": "Empty data test", "status": "passed", "duration": "0.62" },
+            { "name": "Missing password data", "status": "passed", "duration": "0.83" },
+            { "name": "Missing username data", "status": "passed", "duration": "0.78" },
+            { "name": "link to register page", "status": "passed", "duration": "0.60" },
+            { "name": "Not visible password", "status": "passed", "duration": "0.68" },
+            { "name": "Visible password", "status": "passed", "duration": "0.79" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:37:47.454Z",
+            "duration": 6.143,
+            "total_tests": 7,
+            "passed": 7,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "chrome 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/7d7dab2d7717d8426c27b6bfc34ec56f2b0248b1Y3lwcmVzcy9pbnRlZ3JhdGlvbi9sb2dpbi5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/7d7dab2d7717d8426c27b6bfc34ec56f2b0248b1Y3lwcmVzcy9pbnRlZ3JhdGlvbi9sb2dpbi5zcGVjLmpz?auth_token=e1d7eda6d60f103332e2ab8ddfdb85bf7ec2add1acf3f28f4b65c7c870209f80&build_token=QStPOUliUnpxR1VudnZlRzBDR256MW9qMDZpdi9WRVN5QVEzWUl1T3VWdz0tLWt4WWl1S205OCtIeE9HWmQ2WDVPRHc9PQ==--429f1ea8d8c0d2ef38863e5acc2e2d14fac00bde",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "1.67" },
+            { "name": "Empty data test", "status": "passed", "duration": "0.61" },
+            { "name": "Missing password data", "status": "passed", "duration": "0.89" },
+            { "name": "Missing username data", "status": "passed", "duration": "0.82" },
+            { "name": "link to register page", "status": "passed", "duration": "0.62" },
+            { "name": "Not visible password", "status": "passed", "duration": "0.72" },
+            { "name": "Visible password", "status": "passed", "duration": "0.79" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:40:00.494Z",
+            "duration": 22.06,
+            "total_tests": 7,
+            "passed": 7,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "firefox 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/a083c826781b717d84693b7493c7cb8c2b816297Y3lwcmVzcy9pbnRlZ3JhdGlvbi9sb2dpbi5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/a083c826781b717d84693b7493c7cb8c2b816297Y3lwcmVzcy9pbnRlZ3JhdGlvbi9sb2dpbi5zcGVjLmpz?auth_token=7bb604e3e07bdbcab972e6c0146b75762aaed4861adec73b8bb5ae4aa5c399e4&build_token=ODBtOWFvZjVqR0xESlZHRXdPczlJWktkTVpaazMyMkZTYit2dEhlNjExQT0tLVUza2tENVpYc0FHa2s0ZEZrMGFEOGc9PQ==--0bcc8e732ef48c73444c44e4501c4397245b44cb",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "4.86" },
+            { "name": "Empty data test", "status": "passed", "duration": "3.09" },
+            { "name": "Missing password data", "status": "passed", "duration": "3.23" },
+            { "name": "Missing username data", "status": "passed", "duration": "3.10" },
+            { "name": "link to register page", "status": "passed", "duration": "2.36" },
+            { "name": "Not visible password", "status": "passed", "duration": "2.52" },
+            { "name": "Visible password", "status": "passed", "duration": "2.79" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:43:07.547Z",
+            "duration": 24.36,
+            "total_tests": 7,
+            "passed": 7,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "firefox 99, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/4a600918f256be3b10037743b5ca027a03a11603Y3lwcmVzcy9pbnRlZ3JhdGlvbi9sb2dpbi5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/4a600918f256be3b10037743b5ca027a03a11603Y3lwcmVzcy9pbnRlZ3JhdGlvbi9sb2dpbi5zcGVjLmpz?auth_token=53a98d40dd8f4b15ae984a78de815b82c470af9edc65bed1c7571338f2533773&build_token=WWVxVkxaUms4T2N4WmR3OThFZllKa1BmR21mbEw2QVBRQ1pGOVdXZ3Rycz0tLTM3RlRhOVYrclZyYVhURkhabm85ZlE9PQ==--ad14177c61dc7ddcfe95a9783cbe8f47023f00ac",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "6.85" },
+            { "name": "Empty data test", "status": "passed", "duration": "3.67" },
+            { "name": "Missing password data", "status": "passed", "duration": "3.02" },
+            { "name": "Missing username data", "status": "passed", "duration": "3.14" },
+            { "name": "link to register page", "status": "passed", "duration": "2.43" },
+            { "name": "Not visible password", "status": "passed", "duration": "2.51" },
+            { "name": "Visible password", "status": "passed", "duration": "2.63" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:46:53.050Z",
+            "duration": 12.859,
+            "total_tests": 7,
+            "passed": 7,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "edge 101, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/88b93d7f3e65908c6e2d9f794209d97267e86622Y3lwcmVzcy9pbnRlZ3JhdGlvbi9sb2dpbi5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/88b93d7f3e65908c6e2d9f794209d97267e86622Y3lwcmVzcy9pbnRlZ3JhdGlvbi9sb2dpbi5zcGVjLmpz?auth_token=44e8c7b008d1a239fb79cb35de05ea4f294796247bb344dafcfee50a8496db75&build_token=RUZueGFkdCtzTGZuMWxYeXlLTmZjOTAxZEJiS2JQOG0xL05HdHY1S3dPZz0tLWJOaHZ6djJ4WnN0cGhmZWNiejBRZmc9PQ==--8e363697d89235f98efe4df0e887862a16cb16fb",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "4.88" },
+            { "name": "Empty data test", "status": "passed", "duration": "1.27" },
+            { "name": "Missing password data", "status": "passed", "duration": "1.37" },
+            { "name": "Missing username data", "status": "passed", "duration": "1.41" },
+            { "name": "link to register page", "status": "passed", "duration": "1.25" },
+            { "name": "Not visible password", "status": "passed", "duration": "1.26" },
+            { "name": "Visible password", "status": "passed", "duration": "1.40" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:49:51.856Z",
+            "duration": 9.732,
+            "total_tests": 7,
+            "passed": 7,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "edge 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/25ad6ff3f803365b1def3531a0077f0aaaea935fY3lwcmVzcy9pbnRlZ3JhdGlvbi9sb2dpbi5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/25ad6ff3f803365b1def3531a0077f0aaaea935fY3lwcmVzcy9pbnRlZ3JhdGlvbi9sb2dpbi5zcGVjLmpz?auth_token=82ab6e5f7e4ee0f35b23c5c0ff574a588f3e0119908c6f93e2563e940e283d34&build_token=cTVGTjNJcllISVJtUnR6NHlLUE1GMXEzOXZQQTdJU0tkOElPUDBEQlNHOD0tLWd6R05Fb0k2bkp5MlFPM0NJeWhycFE9PQ==--44e9683c376682232fc91692cd8d72aac75e17d0",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "2.94" },
+            { "name": "Empty data test", "status": "passed", "duration": "0.83" },
+            { "name": "Missing password data", "status": "passed", "duration": "1.27" },
+            { "name": "Missing username data", "status": "passed", "duration": "1.23" },
+            { "name": "link to register page", "status": "passed", "duration": "1.05" },
+            { "name": "Not visible password", "status": "passed", "duration": "1.14" },
+            { "name": "Visible password", "status": "passed", "duration": "1.25" }
+          ]
+        }
+      ]
+    },
+    "productsScreen.spec.js": {
+      "path": "cypress/integration",
+      "meta": { "total": 6, "passed": 6, "failed": 0 },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:35:18.499Z",
+            "duration": 1.584,
+            "total_tests": 1,
+            "passed": 1,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "chrome 101, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/2791641f25ffd8849cdd56ab0683cbf3abc557dbY3lwcmVzcy9pbnRlZ3JhdGlvbi9wcm9kdWN0c1NjcmVlbi5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/2791641f25ffd8849cdd56ab0683cbf3abc557dbY3lwcmVzcy9pbnRlZ3JhdGlvbi9wcm9kdWN0c1NjcmVlbi5zcGVjLmpz?auth_token=741f1f1b4d08da0f19805ad7b8f0b80ce4e46f0e73d27a646e081ca2d6192a2b&build_token=SFMwYzZvamM1T2lhZlBjM0xqVTY2bG9JbXpsUDdRUTFHVm10SjFVL1Nxdz0tLWZ5VlpDWFRQWEJNOFhxQUtubUErS3c9PQ==--74c2340b7cf7e4d9a34c50b9fcfa39a2c3151435",
+          "tests": [{ "name": "Renders correctly", "status": "passed", "duration": "1.57" }]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:38:09.125Z",
+            "duration": 1.621,
+            "total_tests": 1,
+            "passed": 1,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "chrome 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/7d7dab2d7717d8426c27b6bfc34ec56f2b0248b1Y3lwcmVzcy9pbnRlZ3JhdGlvbi9wcm9kdWN0c1NjcmVlbi5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/7d7dab2d7717d8426c27b6bfc34ec56f2b0248b1Y3lwcmVzcy9pbnRlZ3JhdGlvbi9wcm9kdWN0c1NjcmVlbi5zcGVjLmpz?auth_token=e1d7eda6d60f103332e2ab8ddfdb85bf7ec2add1acf3f28f4b65c7c870209f80&build_token=dzNoZHdiUXBZUlIrOHNmVlQyVnh4QVJ5UjBTZEwyWkVaY0Mvb2poY3dWbz0tLXZETnRkSnNEOVhYaVBZYk9IZGt5eHc9PQ==--ff7e738f534dc65f0c4d78258088c82685197649",
+          "tests": [{ "name": "Renders correctly", "status": "passed", "duration": "1.61" }]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:41:33.899Z",
+            "duration": 3.168,
+            "total_tests": 1,
+            "passed": 1,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "firefox 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/a083c826781b717d84693b7493c7cb8c2b816297Y3lwcmVzcy9pbnRlZ3JhdGlvbi9wcm9kdWN0c1NjcmVlbi5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/a083c826781b717d84693b7493c7cb8c2b816297Y3lwcmVzcy9pbnRlZ3JhdGlvbi9wcm9kdWN0c1NjcmVlbi5zcGVjLmpz?auth_token=7bb604e3e07bdbcab972e6c0146b75762aaed4861adec73b8bb5ae4aa5c399e4&build_token=R3ZYNVQzN3R5VllSdERIdlB5MjVGSTRaRVUrZzc2STR3eFFSeUFTZkVDOD0tLXN2d1FXS3N5b3ZQSzdFTmVuSHIxYlE9PQ==--72c835da6b12f60d46fe31191a6e968f935c4641",
+          "tests": [{ "name": "Renders correctly", "status": "passed", "duration": "3.15" }]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:43:39.949Z",
+            "duration": 4.311,
+            "total_tests": 1,
+            "passed": 1,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "firefox 99, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/4a600918f256be3b10037743b5ca027a03a11603Y3lwcmVzcy9pbnRlZ3JhdGlvbi9wcm9kdWN0c1NjcmVlbi5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/4a600918f256be3b10037743b5ca027a03a11603Y3lwcmVzcy9pbnRlZ3JhdGlvbi9wcm9kdWN0c1NjcmVlbi5zcGVjLmpz?auth_token=53a98d40dd8f4b15ae984a78de815b82c470af9edc65bed1c7571338f2533773&build_token=M1l0cGM0cXFCNUh4cFk5MHJSMkdqK2MvWWhUbzFYSERlTXVBUnRkS0Vhdz0tLStSVkxPcEdpaG9pTlZnZ0ZmQ1B2M2c9PQ==--f78efb7ba7915890fccbd9a58022e0690fd51542",
+          "tests": [{ "name": "Renders correctly", "status": "passed", "duration": "4.29" }]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:48:26.903Z",
+            "duration": 5.16,
+            "total_tests": 1,
+            "passed": 1,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "edge 101, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/88b93d7f3e65908c6e2d9f794209d97267e86622Y3lwcmVzcy9pbnRlZ3JhdGlvbi9wcm9kdWN0c1NjcmVlbi5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/88b93d7f3e65908c6e2d9f794209d97267e86622Y3lwcmVzcy9pbnRlZ3JhdGlvbi9wcm9kdWN0c1NjcmVlbi5zcGVjLmpz?auth_token=44e8c7b008d1a239fb79cb35de05ea4f294796247bb344dafcfee50a8496db75&build_token=OSszMTZlWUd0d1p0cXdSN2F4Yy9WeWF6YlhoR21vclNRaGNocTB0MGh6dz0tLWlRTFNQak1CL0RMRCtOcFlUeUhjVGc9PQ==--6b2709240d90a68ac510a269f37dde73acf1e410",
+          "tests": [{ "name": "Renders correctly", "status": "passed", "duration": "5.15" }]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:50:26.478Z",
+            "duration": 2.745,
+            "total_tests": 1,
+            "passed": 1,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "edge 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/25ad6ff3f803365b1def3531a0077f0aaaea935fY3lwcmVzcy9pbnRlZ3JhdGlvbi9wcm9kdWN0c1NjcmVlbi5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/25ad6ff3f803365b1def3531a0077f0aaaea935fY3lwcmVzcy9pbnRlZ3JhdGlvbi9wcm9kdWN0c1NjcmVlbi5zcGVjLmpz?auth_token=82ab6e5f7e4ee0f35b23c5c0ff574a588f3e0119908c6f93e2563e940e283d34&build_token=OUxsOTMvMW5NZzlXdXFCNTRMVTRPTkJKTzlWMkZBbC84dlg3cjk1dm5OOD0tLW42RTBrWFp1bjFKaTNCbGdMMHJwU3c9PQ==--e4ea84f837eb93d275c2c6bbc0c405262a360df5",
+          "tests": [{ "name": "Renders correctly", "status": "passed", "duration": "2.73" }]
+        }
+      ]
+    },
+    "register.spec.js": {
+      "path": "cypress/integration",
+      "meta": { "total": 6, "passed": 6, "failed": 0 },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:34:56.770Z",
+            "duration": 7.398,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "chrome 101, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/2791641f25ffd8849cdd56ab0683cbf3abc557dbY3lwcmVzcy9pbnRlZ3JhdGlvbi9yZWdpc3Rlci5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/2791641f25ffd8849cdd56ab0683cbf3abc557dbY3lwcmVzcy9pbnRlZ3JhdGlvbi9yZWdpc3Rlci5zcGVjLmpz?auth_token=741f1f1b4d08da0f19805ad7b8f0b80ce4e46f0e73d27a646e081ca2d6192a2b&build_token=NFBEY3pOekY3aGU5QVZQZ3FOZENCVmQrV1NZNW5tMnhRMGVVT0tYODlrMD0tLWFMYnNMVU5adFRJU0lIU1Z2SERNTFE9PQ==--fdedd474e34c8a3b0d7fc20e6ae2de346e74b21f",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "1.81" },
+            { "name": "Empty data test", "status": "passed", "duration": "0.67" },
+            {
+              "name": "Different password and confirmed password",
+              "status": "passed",
+              "duration": "2.17"
+            },
+            { "name": "Link to login page", "status": "passed", "duration": "0.61" },
+            { "name": "Not visible passwords", "status": "passed", "duration": "0.95" },
+            { "name": "Visible passwords", "status": "passed", "duration": "1.17" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:37:26.513Z",
+            "duration": 7.94,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "chrome 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/7d7dab2d7717d8426c27b6bfc34ec56f2b0248b1Y3lwcmVzcy9pbnRlZ3JhdGlvbi9yZWdpc3Rlci5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/7d7dab2d7717d8426c27b6bfc34ec56f2b0248b1Y3lwcmVzcy9pbnRlZ3JhdGlvbi9yZWdpc3Rlci5zcGVjLmpz?auth_token=e1d7eda6d60f103332e2ab8ddfdb85bf7ec2add1acf3f28f4b65c7c870209f80&build_token=YkdlbnNvUFZJUkc5eUhicXpUTEt4ZGN2ZGpMbDFOcWswRXZKTnBLRXU2dz0tLWhzUElEcDBtY0RNWFQ5Wks2aXlheFE9PQ==--fc08f223dd257113857f7881daf841845509b5a7",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "2.15" },
+            { "name": "Empty data test", "status": "passed", "duration": "0.68" },
+            {
+              "name": "Different password and confirmed password",
+              "status": "passed",
+              "duration": "2.25"
+            },
+            { "name": "Link to login page", "status": "passed", "duration": "0.70" },
+            { "name": "Not visible passwords", "status": "passed", "duration": "0.93" },
+            { "name": "Visible passwords", "status": "passed", "duration": "1.21" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:40:31.707Z",
+            "duration": 21.193,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "firefox 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/a083c826781b717d84693b7493c7cb8c2b816297Y3lwcmVzcy9pbnRlZ3JhdGlvbi9yZWdpc3Rlci5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/a083c826781b717d84693b7493c7cb8c2b816297Y3lwcmVzcy9pbnRlZ3JhdGlvbi9yZWdpc3Rlci5zcGVjLmpz?auth_token=7bb604e3e07bdbcab972e6c0146b75762aaed4861adec73b8bb5ae4aa5c399e4&build_token=VmlOUURaYURuNGszdG5zUko4d0V5U3NPS0VKUmVSV1Zid2lSa0J6eFhTTT0tLS9IeStIWDBmdGlpV0lEbFUrL09GcEE9PQ==--8ba34c3d2836d5cbea0e61db3d7d6b40f4e075e6",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "3.54" },
+            { "name": "Empty data test", "status": "passed", "duration": "2.99" },
+            {
+              "name": "Different password and confirmed password",
+              "status": "passed",
+              "duration": "5.11"
+            },
+            { "name": "Link to login page", "status": "passed", "duration": "3.06" },
+            { "name": "Not visible passwords", "status": "passed", "duration": "2.92" },
+            { "name": "Visible passwords", "status": "passed", "duration": "3.47" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:43:52.578Z",
+            "duration": 21.956,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "firefox 99, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/4a600918f256be3b10037743b5ca027a03a11603Y3lwcmVzcy9pbnRlZ3JhdGlvbi9yZWdpc3Rlci5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/4a600918f256be3b10037743b5ca027a03a11603Y3lwcmVzcy9pbnRlZ3JhdGlvbi9yZWdpc3Rlci5zcGVjLmpz?auth_token=53a98d40dd8f4b15ae984a78de815b82c470af9edc65bed1c7571338f2533773&build_token=SWtHTERWT1RNV0RpT29iSFRkanNDSStheXIweTJ3bU0yNHdyVmNJaEV6ST0tLUVRWGY5V1BkQW9xVndNYzdjaXlmUVE9PQ==--1648fb65b0702dcc89c7628aed0edf5260cf1c80",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "3.78" },
+            { "name": "Empty data test", "status": "passed", "duration": "3.50" },
+            {
+              "name": "Different password and confirmed password",
+              "status": "passed",
+              "duration": "5.39"
+            },
+            { "name": "Link to login page", "status": "passed", "duration": "2.97" },
+            { "name": "Not visible passwords", "status": "passed", "duration": "2.80" },
+            { "name": "Visible passwords", "status": "passed", "duration": "3.44" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:46:20.476Z",
+            "duration": 21.971,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "edge 101, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/88b93d7f3e65908c6e2d9f794209d97267e86622Y3lwcmVzcy9pbnRlZ3JhdGlvbi9yZWdpc3Rlci5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/88b93d7f3e65908c6e2d9f794209d97267e86622Y3lwcmVzcy9pbnRlZ3JhdGlvbi9yZWdpc3Rlci5zcGVjLmpz?auth_token=44e8c7b008d1a239fb79cb35de05ea4f294796247bb344dafcfee50a8496db75&build_token=R001djJWYnNmM1J0OFl5aGRaS2JSVE9jSWMybEtFNysyUnZHTjFvanV4RT0tLThYdllCZkxnTDAvTDR4eFVMM0pjanc9PQ==--6259119ff5c97590b2641f810e10caec56cf693e",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "12.72" },
+            { "name": "Empty data test", "status": "passed", "duration": "1.36" },
+            {
+              "name": "Different password and confirmed password",
+              "status": "passed",
+              "duration": "3.19"
+            },
+            { "name": "Link to login page", "status": "passed", "duration": "1.23" },
+            { "name": "Not visible passwords", "status": "passed", "duration": "1.55" },
+            { "name": "Visible passwords", "status": "passed", "duration": "1.88" }
+          ]
+        },
+        {
+          "meta": {
+            "started_at": "2022-05-23T20:49:23.695Z",
+            "duration": 11.72,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "edge 100, Windows 10",
+          "status": "passed",
+          "link": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/25ad6ff3f803365b1def3531a0077f0aaaea935fY3lwcmVzcy9pbnRlZ3JhdGlvbi9yZWdpc3Rlci5zcGVjLmpz",
+          "public_url": "https://automate.browserstack.com/dashboard/v2?user_id=3106642/builds/1ffd55422dc3276bec970ebd998d818552be2eeb/cypress-tests/tests/25ad6ff3f803365b1def3531a0077f0aaaea935fY3lwcmVzcy9pbnRlZ3JhdGlvbi9yZWdpc3Rlci5zcGVjLmpz?auth_token=82ab6e5f7e4ee0f35b23c5c0ff574a588f3e0119908c6f93e2563e940e283d34&build_token=TjNoVzhIRjhBd20xMXhpNnpyRlMycHc3T2hLdWJid2hKTWtrY1VMNWJkYz0tLXVFQ0xYTFVySFdzK2c2N1lyTEtRaGc9PQ==--f8cabcee1d79fa798683f4d00737b86930341652",
+          "tests": [
+            { "name": "Renders correctly", "status": "passed", "duration": "3.67" },
+            { "name": "Empty data test", "status": "passed", "duration": "0.95" },
+            {
+              "name": "Different password and confirmed password",
+              "status": "passed",
+              "duration": "2.83"
+            },
+            { "name": "Link to login page", "status": "passed", "duration": "1.11" },
+            { "name": "Not visible passwords", "status": "passed", "duration": "1.46" },
+            { "name": "Visible passwords", "status": "passed", "duration": "1.68" }
+          ]
+        }
+      ]
+    }
+  }
+}
