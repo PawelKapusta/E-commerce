@@ -26,3 +26,14 @@ Implement tests in Cypress
 
 Task 7:
 Oauth2 with Github and Google account
+
+Task8:
+SonarCloud -> review when final project exists
+
+Task9: 
+Deploy to cloud -> review when final project exists 
+(But simple app can be deploy here: 
+Backend: https://github.com/PawelKapusta/-EcommerceProject9AzureBack 
+BackendLink: https://back-ebiznes.azurewebsites.net/api/v1
+Frontend: https://github.com/PawelKapusta/EcommerceProject9AzureFront
+FrontendLink: https://front-ebiznes.azurewebsites.net/ )
